@@ -23,7 +23,7 @@ const main = () => {
     execSync("cd awakened-poe-trade/renderer/src/assets && sed -i 's/index.bin/bin/g' ./make-index-files.mjs && sed -i 's/index.bin/bin/g' ./data/index.ts")
 
     // remove hashes from css and js file names so our index.html won't change
-    execSync('cd assets && ren *.js index.js && ren *.css index.css');
+    execSync('cd assets && rm -rf index.js index.css && ren *.js index.js && ren *.css index.css');
 
     // clean up
     execSync("rm -rf ./awakened-poe-trade");
