@@ -1,10 +1,5 @@
 # trade-helper.github.io
-Small helper to make Geforce Now Experience a bit better.
-
-**This helper uses [awakened poe trade](https://github.com/SnosMe/awakened-poe-trade), please consider donating to author's [Patreon](https://www.patreon.com/awakened_poe_trade).**
-
-
-### Check [Demo](https://trade-helper.github.io/demo.gif).
+Small helper to make Geforce Now Experience a bit better. Check [Demo](https://trade-helper.github.io/demo.gif).
 
 ## Initial setup
 1. Login to GFN.
@@ -18,3 +13,7 @@ Small helper to make Geforce Now Experience a bit better.
 3. Press Ctrl + V.
 4. ????
 5. PROFIT!!!
+
+---
+
+**This helper uses [awakened poe trade](https://github.com/SnosMe/awakened-poe-trade), please consider donating to author's [Patreon](https://www.patreon.com/awakened_poe_trade).**
