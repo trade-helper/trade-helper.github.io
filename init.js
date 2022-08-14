@@ -6,6 +6,8 @@ const main = () => {
     // install, build, copy dist to root
     execSync("rm -rf ./awakened-poe-trade");
     execSync('git clone https://github.com/SnosMe/awakened-poe-trade.git');
+    execSync("sed -i 's/index.bin/bin/g' awakened-poe-trade/renderer/src/assets/make-index-files.mjs")
+    execSync("sed -i 's/index.bin/bin/g' awakened-poe-trade/renderer/src/assets/data/index.ts")
     execSync('cd awakened-poe-trade/renderer && npm install && npm run make-index-files && npm run build');
     execSync('cp -r awakened-poe-trade/renderer/dist/. .');
     // revert index.html
