@@ -3,10 +3,6 @@ const { execSync } = require("child_process");
 const main = () => {
     // backup modified index.html and clear possible leftover files
     execSync("cp index.html index-backup.html");
-    execSync("rm -rf ./awakened-poe-trade");
-
-    // clone
-    execSync('git clone https://github.com/SnosMe/awakened-poe-trade.git');
 
     // rename assets to avoid problems with github pages
     execSync("sed -i 's/index.bin/bin/g' awakened-poe-trade/renderer/src/assets/make-index-files.mjs")
@@ -24,9 +20,6 @@ const main = () => {
 
     // remove hashes from css and js file names so our index.html won't change
     execSync('cd assets && rm -rf index.js index.css && ren *.js index.js && ren *.css index.css');
-
-    // clean up
-    execSync("rm -rf ./awakened-poe-trade");
 };
 
 main();
