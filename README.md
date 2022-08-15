@@ -1,4 +1,4 @@
-# trade-helper.github.io
+# trade-helper.github.io [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 Small helper to make Geforce Now Experience a bit better. Check [Demo](https://trade-helper.github.io/demo.gif).
 
 ## Initial setup
